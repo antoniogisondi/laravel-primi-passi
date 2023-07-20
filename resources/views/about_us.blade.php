@@ -19,7 +19,7 @@
                             <div class="collapse navbar-collapse">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                    <a class="nav-link active" href="/home">Home</a>
+                                    <a class="nav-link active" href="/">Home</a>
                                     </li>
                                     <li class="nav-item">
                                     <a class="nav-link" href="/">Chi Siamo</a>
@@ -34,5 +34,12 @@
                 </div>
             </div>
         </header>
+        <main class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>{{ $text }}</h2>
+                </div>
+            </div>
+        </main>
     </body>
 </html>

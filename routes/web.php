@@ -21,7 +21,8 @@ Route::get('/', function () {
 });
 
 Route::get('/about-us', function () {
-    return view('about_us');
+    $text = 'Siamo la classe #99 del corso Full Stack Web-Developer di Boolean!';
+    return view('about_us', compact( 'text' ));
 });
 
 
