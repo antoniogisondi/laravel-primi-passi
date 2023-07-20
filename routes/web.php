@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $title = 'Hello World';
+    $text = 'Benvenuto Laravel';
+    $text2 = 'Sono contento di conoscere questo nuovo strumento di derivazione PHP';
+    return view('home', compact( 'title', 'text', 'text2'));
 });

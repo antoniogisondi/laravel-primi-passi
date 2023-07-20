@@ -10,8 +10,10 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <h1></h1>
+                <div class="col mt-4">
+                    <h1>{{ $title }}</h1>
+                    <h3>{{ $text }}</h3>
+                    <h4>{{ $text2 }}</h4>
                 </div>
             </div>
         </div>
