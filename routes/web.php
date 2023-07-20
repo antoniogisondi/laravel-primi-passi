@@ -19,3 +19,12 @@ Route::get('/', function () {
     $text2 = 'Sono contento di conoscere questo nuovo strumento di derivazione PHP';
     return view('home', compact( 'title', 'text', 'text2'));
 });
+
+Route::get('/about-us', function () {
+    return view('about_us');
+});
+
+
+Route::get('/contacts', function () {
+    return view('contacts');
+});
