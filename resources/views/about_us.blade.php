@@ -22,7 +22,7 @@
                                     <a class="nav-link active" href="/">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                    <a class="nav-link" href="/">Chi Siamo</a>
+                                    <a class="nav-link" href="/about-us">Chi Siamo</a>
                                     </li>
                                     <li class="nav-item">
                                     <a class="nav-link" href="/contacts">Contatti</a>
@@ -34,6 +34,7 @@
                 </div>
             </div>
         </header>
+
         <main class="container">
             <div class="row">
                 <div class="col">

@@ -27,5 +27,9 @@ Route::get('/about-us', function () {
 
 
 Route::get('/contacts', function () {
-    return view('contacts');
+    $data = [
+        'title' => 'Puoi trovarci su Linkedin',
+        'text'  => 'Quando vuoi!',
+    ];
+    return view('contacts', $data);
 });

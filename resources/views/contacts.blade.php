@@ -25,7 +25,7 @@
                                     <a class="nav-link" href="/about-us">Chi Siamo</a>
                                     </li>
                                     <li class="nav-item">
-                                    <a class="nav-link" href="/">Contatti</a>
+                                    <a class="nav-link" href="/contacts">Contatti</a>
                                     </li>
                                 </ul>
                             </div>
@@ -34,5 +34,14 @@
                 </div>
             </div>
         </header>
+
+        <main class="container">
+            <div class="row">
+                <div class="col">
+                    <h4>{{ $title }}</h4>
+                    <h4>{{ $text }}</h4>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
